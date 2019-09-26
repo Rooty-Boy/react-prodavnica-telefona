@@ -19,8 +19,9 @@ Commons (Attribution 3.0 Unported);
 https://www.iconfinder.com/Makoto_msk 
                 */} 
                 <Link to='/'>
-                    <img src={logo} alt="store" className="navbar-brand"/>
+                    <img src={logo} alt="store" className="navbar-brand"></img>
                 </Link>
+                <div className="phone-call">069 222 333</div>
                 <ul className="navbar-nav align-items-center">
                     <li className="nav-item ml-5 ">
                         <Link to="/" className='nav-link'>Products</Link>

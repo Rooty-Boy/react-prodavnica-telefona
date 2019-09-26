@@ -51,4 +51,16 @@ body{
 .cart-icon:hover{
     transform: scale(1.2);
 }
-
+.blok{
+  display: none;
+}
+.phone-call{
+  color: var(--mainYellow);
+}
+.phone-call:hover{
+  background: var(--lightBlue);
+  transition: all 1s ease-in-out;
+  border-radius: 0.3rem 0.3rem 0.3rem 0.3rem;
+  color: var(--mainWhite);
+  cursor: pointer;
+}
